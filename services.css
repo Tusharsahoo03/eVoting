@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.firstsection {
+  border: 2px solid white;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.527);
+  padding: 10px;
+  position: relative;
+  top: 20px;
+}
+body {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  animation: example 2s ease-in-out;
+  animation-delay: 2s;
+  position: relative;
+}
+
+.shareholder {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgba(153, 203, 223, 0.144);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+  height: 300px;
+}
+.shareholder:hover {
+  transform: scale(1.08);
+  border-radius: 20px;
+}
+.link {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgba(153, 203, 223, 0.144);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+  height: 300px;
+}
+.link:hover {
+  transform: scale(1.08);
+  border-radius: 20px;
+}
+.search {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgba(153, 203, 223, 0.144);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+  height: 300px;
+}
+.search:hover {
+  transform: scale(1.08);
+  border-radius: 20px;
+}
+.custodian {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgba(153, 203, 223, 0.144);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px black;
+  height: 300px;
+}
+.custodian:hover {
+  transform: scale(1.08);
+  border-radius: 20px;
+}
+i {
+  font-size: 28px;
+  position: relative;
+  left: 35%;
+  border-radius: 50%;
+  background-color: rgba(135, 207, 235, 0.726);
+  padding: 15px;
+  color: rgba(0, 0, 255, 0.555);
+}
+i:hover {
+  color: white;
+  background-color: rgba(255, 68, 0, 0.61);
+}
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+button {
+  padding: 5px 30px;
+  background-color: rgba(165, 42, 42, 0.863);
+  cursor: pointer;
+}
+.shareholder > .shareholderbutton {
+  position: relative;
+  top: 8%;
+  left: 27%;
+}
+.link > button {
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+.search > .searchbutton {
+  position: relative;
+  top: 32%;
+  left: 28%;
+}
+.custodian > .custodianbutton {
+  position: relative;
+  top: 24%;
+  left: 30%;
+}
+button {
+  border-radius: 8px;
+}
+.home:hover {
+  color: rgba(0, 0, 255, 0.815);
+}
+@keyframes example {
+  0% {
+    right: 0%;
+  }
+  20% {
+    right: 2%;
+  }
+  40% {
+    right: 3%;
+  }
+  50% {
+    right: 4%;
+  }
+  60% {
+    right: 5%;
+  }
+  70% {
+    right: 6%;
+  }
+  80% {
+    right: 7%;
+  }
+  90% {
+    right: 10%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.color {
+  color: blue;
+}
