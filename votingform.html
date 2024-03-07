@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoting/Votingform.com</title>
+    <link rel="stylesheet" href="votingform.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer">
+            <form id="myForm" action="votesubmit.html">
+                <fieldset>
+
+
+                    <div class="border">
+                        <h3 class="personaldetails">Personal Details</h3>
+                        <div class="yourinfo">
+                            <label for="firstname" class="first">Enter your first name:</label>
+                            <input type="text" placeholder="Enter your first name..." id="firstname" required>
+                            <label for="middlename" class="first">Middle name:</label>
+                            <input type="text" placeholder="Enter your middle name..." id="middlename" required>
+                            <label for="lastname" class="first">last name:</label>
+                            <input type="text" placeholder="Enter your last name..." id="lastname" required><br>
+
+                        </div>
+                        <div class="fatherinfo">
+                            <label for="firstnameoffather" class="first">Enter your father's first name</label>
+                            <input type="text" placeholder="Enter your first name..." id="firstnameoffather">
+                            <label for="middlenameoffather" class="first">Middle name</label>
+                            <input type="text" placeholder="Enter your middle name..." id="middlenameoffather">
+                            <label for="lastnameoffather" class="first">last name</label>
+                            <input type="text" placeholder="Enter your last name..." id="lastnameoffather">
+                        </div>
+                        <h3 class="contact">Contact Details</h3>
+                        <div class="contactdetails">
+                            <label for="number" class="first">Enter Your Contact number:</label>
+                            <input type="number" placeholder="ex+917812543190" id="contactnumber" required>
+                            <label for="email" class="first">Enter Your email id:</label>
+                            <input type="email" placeholder="ex- @sahootushar@021.com" id="emailid" required>
+                        </div>
+                        <h3 class="current">Current Address</h3>
+                        <div class="currentaddress"><span>
+                                <label for="at">At:</label>
+                                <input type="text" id="at"></span>
+                            <span><label for="post">Post:</label>
+                                <input type="text" id="post"></span>
+                            <span><label for="district">District:</label>
+                                <input type="text" id="district"></span>
+                        </div>
+                        <div class="restcurrentaddress">
+                            <span><label for="pin">Pin:</label>
+                                <input type="number" id="pin" required></span>
+                            <span><label for="city">City:</label>
+                                <input type="text" id="city"></span>
+                            <span><label for="state">State:</label>
+                                <input type="text" id="state"></span>
+                        </div>
+                        <h3 class="permanet">Permanet Address</h3>
+                        <div class="permanetaddress"> <span>
+                                <label for="AT">At:</label>
+                                <input type="text" id="AT"></span>
+                            <span><label for="Post">Post:</label>
+                                <input type="text" id="Post"></span>
+                            <span><label for="District">District:</label>
+                                <input type="text" id="District"></span>
+                        </div>
+                        <div class="restpermanetaddress">
+                            <span><label for="Pin">Pin:</label>
+                                <input type="number" id="Pin" required></span>
+                            <span><label for="City">City:</label>
+                                <input type="text" id="City"></span>
+                            <span><label for="State">State:</label>
+                                <input type="text" id="State"></span>
+                        </div>
+                        <a href="votesubmit.html" style="text-decoration: none;" class="remove"><button
+                                class="submithere" onsubmit="submitForm()">Submit</button></a>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    <script>
+        function submitForm() {
+
+
+            var username = document.getElementById("firstname").value;
+            var password = document.getElementById("middlename").value;
+            var user2 = document.getElementById("lastname").value;
+            var pincode = document.get.getElementById("pin").value;
+            var contact = document.getElementById("contactnumber").value;
+            var mail = document.getElementById("emailid").value;
+
+            if (username.trim() === "" || password.trim() === "" || user2.trim() === "" || pincode.trim() === "" || contact.trim() === "" || mail.trim() === "") {
+                alert("Please fill out all fields before submitting.");
+                return false;
+            }
+
+
+
+            return true;
+        }        
+    </script>
+</body>
+
+</html>

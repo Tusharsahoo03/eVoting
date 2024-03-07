@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Anta&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif+Khojki:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+}
+.maincontainer {
+  height: 100vh;
+  width: 100%;
+}
+fieldset {
+  box-shadow: 3px 3px 20px 5px black;
+  border: none;
+}
+.personaldetails {
+  text-decoration: underline;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.subcontainer {
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  position: relative;
+  top: 8%;
+}
+.yourinfo {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+legend {
+  text-align: center;
+}
+.fatherinfo {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.first {
+  padding-left: 30px;
+}
+.contact {
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.currentaddress {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contactdetails {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contactdetails > input {
+  padding-right: 10px;
+}
+.restcurrentaddress {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.current {
+  padding: 10px;
+  text-decoration: underline;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.permanet {
+  padding-top: 10px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.permanetaddress {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.restpermanetaddress {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  padding: 20px;
+}
+.submithere {
+  padding: 3px 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 93%;
+  cursor: pointer;
+  border: 2px solid black;
+  display: inline;
+  top: 19px;
+}
+.submithere:hover {
+  background-color: blue;
+  color: white;
+  text-shadow: 1px 2px 2px black;
+}
+input {
+  border-radius: 8px;
+  padding-left: 3px;
+  border: none;
+}
+input:focus {
+  background-color: #a5dd9b;
+}
+legend {
+  font-size: 22px;
+}
