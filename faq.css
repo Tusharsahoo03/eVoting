@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.firstsection {
+  border: 2px solid white;
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.808);
+  padding: 10px;
+  position: relative;
+  top: 20px;
+}
+.home:hover {
+  color: rgba(0, 0, 255, 0.589);
+}
+body {
+  margin: auto;
+  width: 90%;
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+}
+.faqheader {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  background-color: rgba(0, 0, 255, 0.404);
+  padding: 8px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.651);
+}
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  background-color: rgba(255, 255, 255, 0.651);
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+.faq > p {
+  border: 1px solid rgba(0, 0, 0, 0.527);
+}
+.faq > .q1 {
+  display: flex;
+  width: 100%;
+}
+.q1 > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 31px;
+}
+.q1 > h4 {
+  position: relative;
+  
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q1ans {
+  display: flex;
+}
+.q1ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 30px;
+}
+.q1ans > h4 {
+  position: relative;
+  padding: 7px;
+}
+.faq > .q2 {
+  display: flex;
+  width: 100%;
+}
+.q2 > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 31px;
+}
+.q2 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q2ans {
+  display: flex;
+}
+.q2ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 30px;
+}
+.q2ans > h4 {
+  position: relative;
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.faq > .q3 {
+  display: flex;
+  width: 100%;
+}
+.q3 > p {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px 31px;
+}
+.q3 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q3ans {
+  display: flex;
+}
+.q3ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 30px;
+}
+.q3ans > h4 {
+  position: relative;
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.faq > .q4 {
+  display: flex;
+  width: 100%;
+}
+.q4 > p {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px 31px;
+}
+.q4 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q4ans {
+  display: flex;
+}
+.q4ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 50px 30px;
+}
+.q4ans > h4 {
+  position: relative;
+  padding-left: 50px;
+  padding-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.a {
+  padding-left: 40px;
+}
+.faq > .q5 {
+  display: flex;
+  width: 100%;
+}
+.q5 > p {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px 31px;
+}
+.q5 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q5ans {
+  display: flex;
+}
+.q5ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 30px;
+}
+.q5ans > h4 {
+  position: relative;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.faq > .q6 {
+  display: flex;
+  width: 100%;
+}
+.q6 > p {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px 31px;
+}
+.q6 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q6ans {
+  display: flex;
+}
+.q6ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 50px 30px;
+}
+.q6ans > h4 {
+  position: relative;
+  padding-left: 50px;
+  padding-top: 10px;
+  border: 1px solid black;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.faq > .q7 {
+  display: flex;
+  width: 100%;
+}
+.q7 > p {
+  border: 1px solid rgba(0, 0, 0, 0.616);
+  padding: 5px 31px;
+}
+.q7 > h4 {
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+.q7ans {
+  display: flex;
+}
+.q7ans > p {
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  padding: 5px 30px;
+}
+.q7ans > h4 {
+  position: relative;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  display: flex;
+  width: 100%;
+}
+h4 {
+  font-weight: 150;
+}
